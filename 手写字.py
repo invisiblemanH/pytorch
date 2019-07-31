@@ -13,7 +13,7 @@ import os
 
 batch_size=64          #分批训练数据，每批训练数据量
 learning_rate=1e-2     #学习率
-num_epoches=3         #训练次数
+num_epoches=20         #训练次数
 
 class simpleNet(nn.Module):
     def __init__(self,in_dim,n_hidden_1,n_hidden_2,out_dim):
